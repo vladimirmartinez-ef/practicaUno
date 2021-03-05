@@ -148,3 +148,16 @@
     transform: scale(1.05);
     
 }
+
+.footer{
+    color: lightgreen;
+    border: 4px double blue;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.footer p{
+    text-align: justify;
+    color: lightseagreen;
+
+}

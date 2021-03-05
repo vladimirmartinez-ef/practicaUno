@@ -42,6 +42,17 @@
 
 }
 
+.btn-segundo{
+    color: white;
+    background-color: #062F4F;
+    border-color: #062F4F;
+}
+.btn-segundo:hover{
+    color: white;
+    background-color: transparent;
+    border:4px solid #062F4F;
+}
+
 .btn-out-primero{
     color: #000000;
     border-color: #000000;
@@ -80,4 +91,37 @@
     color: white;
     background-color: #EC576B;
     border-color: #EC576B;
+}
+
+/* portada */
+.portada{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Wy8-y8PDaqzhEb7UfpGcVGuzlNhRWNWDXw&usqp=CAU);
+    background-size: 200%;
+    animation: movimiento 10s infinite linear alternate;
+    position: relative;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+
+.portada-text{
+    color: white; 
+    text-align: center;
+    text-shadow: purple 1px 0 20px;
+    font-family: serif; 
+    font-weight: bold;
+    font-size: 8rem;
+}
+.portada-text .sub{
+    text-shadow: #EC576B 1px 0 20px;
+    font-family: serif; 
+    font-size: 6rem;
+    color: aqua;
 }

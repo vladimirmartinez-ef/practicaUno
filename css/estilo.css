@@ -81,3 +81,13 @@
     background-color: #EC576B;
     border-color: #EC576B;
 }
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-boder:hover{
+    transform: scale(1.05);
+    
+}

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -7,62 +8,286 @@
   <!-- link css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="icon" href="img/descarga.jpeg">
+  <link rel="stylesheet" href="css/estilo.css">
   <script src="https://kit.fontawesome.com/a8a795d2bb.js"></script>
+
+
+  <!-- Image and text -->
+  <nav class="navbar navbar-light bg-danger  fixed-top">
+    <a class="navbar-brand text-white" href="#">
+      <i class="fas fa-book ml-3"></i>
+      PaperCity
+    </a>
+    <!--<form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+    <form action="form-inline">
+      <a href="index.html" class="btn btn-primary my-2  mr-4">Inicio</a>
+    </form>
+  </nav>
+  <i class="fas fa-bars"></i>
+  <!-- Background image -->
+  <div class="p-5 text-center bg-image shadow-1-strong" style="
+      background-image: url('img/Imagenfondomochilas.png');
+      height: 400px;
+    ">
+
+    <div class="mask" style="background-color: rgba(184, 198, 202, 0.007)">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">MOCHILAS</h1>
+          <h4 class="mb-4">50% de descuento</h4>
+          <h4 class="mb-4">En todos los productos</h4>
+          <h4 class="mb-4">solo por la compra de tu segundo articulo</h4>
+          <a class="btn btn-outline-light btn-lg" href="#!" role="button">Contáctanos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Background image -->
 </head>
 
 <body>
-  <nav>
-    <!-- Image and text -->
-    <nav class="navbar navbar-light bg-tercero fixed-top">
-      <a class="navbar-brand text-white" href="#">
-        <i class="fas fa-book ml-3"></i>
-        PaperCity
-      </a>
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-      <form action="form-inline">
-        <a href="index.html" class="btn btn-primero my-2  mr-4">Inicio</a>
-      </form>
-    </nav>
-
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/camochila.jpeg" class="d-block w-100" src="..." alt="First slide" style="height: 300px;">
-        </div>
-        <div class="carousel-item">
-          <img src="img/adultosmochila.jpg" class="d-block w-100" src="..." alt="Second slide" style="height: 300px;">
-        </div>
-        <div class="carousel-item">
-          <img src="img/niñomochila.jpg" class="d-block w-100" src="..." alt="Third slide" style="height: 300px;">
-        </div>
-      </div>
-    </div>
+  <main class="mt-2">
+    <div class="container">
 
 
-      <div class="content-top ">
-        <div class="container ">
-          <div class="spec ">
-            <h3>Productos disponibles</h3>
-            <div class="ser-t">
-              <b></b>
-              <span><i></i></span>
-              <b class="line"></b>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+
+            <!-- Search form -->
+            <form class="d-flex input-group w-auto">
+              <input type="search" class="form-control" placeholder="Escribir producto" aria-label="Search" />
+              <button class="btn btn-outline-primary" type="button" data-mdb-ripple-color="dark">
+                Buscar
+              </button>
+            </form>
+          </div>
+
+          <div class="dropdown">
+            <button class="btn btn-outline-success dropdown-toggle" type="button" id="dropdownMenuButton"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Categorias
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Niños</a>
+              <a class="dropdown-item" href="#">Mujer</a>
+              <a class="dropdown-item" href="#">Hombre</a>
             </div>
           </div>
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <ul class="navbar-nav">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <span class="badge badge-pill bg-danger">1</span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+    </div>
+  </main>
+
+  <main class="mt-2">
+    <!-- productos fila 1-->
+    <section class="text-center mb-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <div class="card">
+            <img src="img/underarmour.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Under Armour</h5>
+              <p class="card-text">
+                Mochila para caballero
+                $20.00
+              </p>
+              <a href="#!" class="btn btn-primary">Agregar a carrito</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <div class="card">
+            <img src="img/nike.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Nike</h5>
+              <p class="card-text">
+                Mochila de niño o caballero
+                $35.00
+              </p>
+              <a href="#!" class="btn btn-primary">Agregar a carrito</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <div class="card">
+            <img src="img/nike2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Nike</h5>
+              <p class="card-text">
+                Mochila para niña o mujer
+                $12.00
+              </p>
+              <a href="#!" class="btn btn-primary">Agregar a carrito</a>
+            </div>
+          </div>
+
+
         </div>
       </div>
+    </section>
+  </main>
+
+  <main class="mt-2">
+    <!-- productos fila 2 -->
+    <section class="text-center mb-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+  
+          <div class="card">
+            <img src="img/toto1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Totto</h5>
+              <p class="card-text">
+                Mochila para niña
+                $25.00
+              </p>
+              <a href="#!" class="btn btn-primary">Agregar a carrito</a>
+            </div>
+          </div>
+  
+        </div>
+        <div class="col-lg-4 col-md-12 mb-4">
+  
+          <div class="card">
+            <img src="img/toto2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Totto</h5>
+              <p class="card-text">
+                Mochila para niña
+                $25.00
+              </p>
+              <a href="#!" class="btn btn-primary">Agregar a carrito</a>
+            </div>
+          </div>
+  
+  
+        </div>
+        <div class="col-lg-4 col-md-12 mb-4">
+  
+          <div class="card">
+            <img src="img/tous.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Tous</h5>
+              <p class="card-text">
+               Mochila para niña o mujer
+               $15.99
+              </p>
+              <a href="#!" class="btn btn-primary">Agregar a carrito</a>
+            </div>
+          </div>
+  
+  
+        </div>
+      </div>
+    </section>
+    </main>
+</main>
+
+<main class="mt-2">
+  <!-- productos fila 3-->
+  <section class="text-center mb-4">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4">
+
+        <div class="card">
+          <img src="img/vans1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Vans</h5>
+            <p class="card-text">
+              Mochila para caballero
+              $45.60
+            </p>
+            <a href="#!" class="btn btn-primary">Agregar a carrito</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-12 mb-4">
+
+        <div class="card">
+          <img src="img/puma.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Puma</h5>
+            <p class="card-text">
+              Mochila para mujer
+              $23.99
+            </p>
+            <a href="#!" class="btn btn-primary">Agregar a carrito</a>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-lg-4 col-md-12 mb-4">
+
+        <div class="card">
+          <img src="img/niñomochila.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Vans</h5>
+            <p class="card-text">
+              Mochila para niño
+              $16.00
+            </p>
+            <a href="#!" class="btn btn-primary">Agregar a carrito</a>
+          </div>
+        </div>
+        
+      </div>
     </div>
+  </section>
+
+  <!-- productos -->
+  </main>
 
 
 
-    <footer>
+  <footer>
 
-    </footer>
-    <!-- javascript -->
-    <script src="js/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  </footer>
+  <!-- javascript -->
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
+<script type="text javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript"></script>
+
+</html>

@@ -33,43 +33,413 @@
                 <a href="diversion.html" class="btn btn-cuarto my-2 ml-3">Diversion</a>
                 <a href="mochilas.html" class="btn btn-cuarto my-2 ml-3">Mochilas</a>
             </div>
-            <div class="col-10 border-left border-info bg-primero ml-5">
+            <div class="col-10 border-left border-info bg-primero ml-5"
+                style="background-image: url(img/escolares/fondo5.jpg); ">
                 <div>
                     <h2 class="text-center text-white">Escolares</h2>
                     <p class="text-center text-white">Que este regreso a clases tus hijos no se queden sin materiales
                     </p>
                 </div>
-                <div class="row border">
-                    <div class="col-1 border">
+                <div class="row ">
+                    <div class="col-1 ">
                     </div>
-                    <div class="col-4 border p-1 text-center text-white">
+                    <div class="col-4  p-1 text-center text-white">
                         <H3>Lapices y Lapiceros</H3>
                         <img src="img/escolares/lapices_lapiceros2.jpg" class="card-img-top" alt="">
-                        <a href="#lapices" class="btn btn-success mt-2">Ver Articulos</a>
+                        <!--Boton que abre la ventana emergente-->
+                        <a href="#ventana" class="btn btn-success mt-2" data-toggle="modal">Ver Articulos</a>
+                        <!-- Modal/Ventana emergente -->
+                        <div class="modal fade" id="ventana">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content" style="background-image: url(img/escolares/fondo.jpg);">
+                                    <!-- Header de la ventana -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Lapices y Lapiceros entre otros</h4>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-hidden="true">&times;</button>
+                                    </div>
+                                    <!-- Contenido de la ventana -->
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/estuche_lapiceros.jpeg" class="card-img-top"
+                                                        alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Set de lapiceros Marca Pelikan Precio $2.90
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/lapiz.jpeg" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Lapiz triangular Marca Norma Precio $2.80
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/Marcadores.jpeg" class="card-img-top"
+                                                        alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Caja 4 marcadores Marca BIC Precio $4.70
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/corrector.jpeg" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Corector de boligrafo Marca Pelikan Precio
+                                                            $1.20
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer ">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary">Guardar Compras</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-1 border">
+                    <div class="col-1 ">
                     </div>
-                    <div class="col-4 border p-1 text-center text-white">
-                        <H5>Archivadores, Cuadernillo y entre otros</H5>
-                        <img src="img/escolares/cuadernillo.jpg" class="card-img-top" height="75%" alt="">
-                        <a href="#lapices" class="btn btn-success mt-2">Ver Articulos</a>
+                    <div class="col-4  p-1 text-center text-white">
+                        <H5>Utiles</H5>
+                        <img src="img/escolares/utiles.jpg" class="card-img-top" height="77%" alt="">
+                        <!--Boton que abre la ventana emergente-->
+                        <a href="#ventana1" class="btn btn-success mt-2" data-toggle="modal">Ver Articulos</a>
+                        <!-- Modal/Ventana emergente -->
+                        <div class="modal fade" id="ventana1">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content" style="background-image: url(img/escolares/fondo2.jpg);">
+                                    <!-- Header de la ventana -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title text-warning">Utiles</h4>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-hidden="true">&times;</button>
+                                    </div>
+                                    <!-- Contenido de la ventana -->
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/Tirro.jpeg" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Tirro Blanco Marca Scotch Precio $1.00
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/silicon.jpeg" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Silicon Liquido Marca Resistol Precio $1.25
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/pizarra.jpeg" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Pizarra grande Marca Office Style Precio
+                                                            $39.90
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/tijerra.jpeg" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Tijera Multiproposito Marca Scotch Precio
+                                                            $3.40
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer ">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary">Guardar Compras</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row ">
                     <div class="col-4  text-center text-white">
-                        <H3>Libros Escolares</H3>
-                        <img src="img/escolares/libros.jpeg" class="card-img-top" alt="">
-                        <a href="#lapices" class="btn btn-success my-2">Ver Articulos</a>
+                        <H3>Estuches Escolares</H3>
+                        <img src="img/escolares/estuche-colegio.jpg" class="card-img-top" alt="">
+                        <!--Boton que abre la ventana emergente-->
+                        <a href="#ventana3" class="btn btn-success mt-2" data-toggle="modal">Ver Articulos</a>
+                        <!-- Modal/Ventana emergente -->
+                        <div class="modal fade" id="ventana3">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content" style="background-image: url(img/escolares/fondo3.jpg);">
+                                    <!-- Header de la ventana -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title ">Estuches Escolares</h4>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-hidden="true">&times;</button>
+                                    </div>
+                                    <!-- Contenido de la ventana -->
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/ultimate_estuche.jpeg" class="card-img-top"
+                                                        alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Ultimate m2 pencil Marca Samsonite Precio
+                                                            $6.93
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/multiuso-estuche.jpeg" class="card-img-top"
+                                                        alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Multiuso snorkel Marca Totto Precio $9.76
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/porta_lapiz.jpeg" class="card-img-top"
+                                                        alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Porta lapiz go pipe Marca GO Precio
+                                                            $11.00
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/lapicera.jpeg" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Lapicera Marca Chenson Precio
+                                                            $17.90
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer ">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary">Guardar Compras</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4  text-center text-white">
-                        <H4>Estuche Geometrico</H4>
+                        <H4>Juego Geometrico</H4>
                         <img src="img/escolares/geometrico.jpg" class="card-img-top" alt="">
-                        <a href="#lapices" class="btn btn-success my-2">Ver Articulos</a>
+                        <a href="#ventana4" class="btn btn-success mt-2" data-toggle="modal">Ver Articulos</a>
+                        <!-- Modal/Ventana emergente -->
+                        <div class="modal fade" id="ventana4">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content" style="background-image: url(img/escolares/fondo4.jpg);">
+                                    <!-- Header de la ventana -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title ">Juegos Geometricos</h4>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-hidden="true">&times;</button>
+                                    </div>
+                                    <!-- Contenido de la ventana -->
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/compas.jpeg" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Compas metálico Marca Stabilo Precio
+                                                            $2.25
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/cortador.jpeg" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Cuch cam-ch plastica Marca Mae Precio $1.15
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/juego-geometrico.jpeg" class="card-img-top"
+                                                        alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Juego de geometria Marca Stabilo Precio
+                                                            $1.65
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/regla.jpeg" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Regla flex Marca Maped Precio
+                                                            $1.55
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer ">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary">Guardar Compras</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-4  text-center text-white">
                         <H3>Calculadoras</H3>
                         <img src="img/escolares/calculadora.jpg" class="card-img-top" height="70%" alt="">
-                        <a href="#lapices" class="btn btn-success my-2">Ver Articulos</a>
+                        <a href="#ventana5" class="btn btn-success mt-2" data-toggle="modal">Ver Articulos</a>
+                        <!-- Modal/Ventana emergente -->
+                        <div class="modal fade" id="ventana5">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content" style="background-image: url(img/escolares/fondo6.png);">
+                                    <!-- Header de la ventana -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title ">Calculadoras</h4>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-hidden="true">&times;</button>
+                                    </div>
+                                    <!-- Contenido de la ventana -->
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/financiera.jpeg" class="card-img-top"
+                                                        alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Calculadora financiera Marca Casio Precio
+                                                            $89.90
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/mesa.jpeg" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Calculadora de mesa Marca Casio Precio
+                                                            $35.90
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/bolsillo.jpeg" class="card-img-top" alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Calculadora de Bolsillo Marca Casio Precio
+                                                            $4.90
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2"></div>
+                                            <div class="col-2  p-1 text-center text-dark">
+                                                <div class="card" style="width: 12rem;">
+                                                    <img src="img/escolares/cientifica.jpeg" class="card-img-top"
+                                                        alt="">
+                                                    <div class="card-body">
+                                                        <p class="card-text">Calculadora cientifica Marca Casio Precio
+                                                            $29.90
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer ">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary">Guardar Compras</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>>
